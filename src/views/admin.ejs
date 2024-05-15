@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Admin
+
+    <!-- {
+        "name": "iPhone 17 Pro Max",
+        "price": "2000",
+        "oldPrice": "3000",
+        "thumbnail": "https://cdn.hoanghamobile.com/i/preview/Uploads/2023/09/13/iphone-15-plus-yellow-pure-back-iphone-15-plus-yellow-pure-front-2up-screen-usen.png",
+        "description": "Điện thoại mới",
+        "stock": 10,
+        "category": "Điện thoại",
+        "brand": "Apple",
+        "created_by": "Trong Pham",
+        "updated_by": "Trong Pham"
+    } -->
+
+    <form action="/api/v1/product/create-product" method="post">
+        <label for="name">Enter your name:</label> <input type="text" id="name" name="name"><br>
+        <label for="price">Enter your price:</label> <input type="text" id="price" name="price"> <br>
+        <label for="oldPrice">Enter your old price:</label> <input type="text" id="oldPrice" name="oldPrice"> <br>
+        <label for="thumbnail">Enter your thumbnail:</label> <input type="text" id="thumbnail" name="thumbnail"> <br>
+        <label for="description">Enter your description:</label> <input type="text" id="description" name="description">
+        <br>
+        <label for="stock">Enter your stock:</label> <input type="text" id="stock" name="stock"> <br>
+        <label for="category">Enter your category:</label> <input type="text" id="category" name="category"> <br>
+        <label for="brand">Enter your brand:</label> <input type="text" id="brand" name="brand"> <br>
+        <label for="created_by">Enter your created_by:</label> <input type="text" id="created_by" name="created_by">
+        <br>
+        <label for="updated_by">Enter your updated_by:</label> <input type="text" id="updated_by" name="updated_by">
+        <button type="submit"> Submit</button>
+    </form>
+</body>
+
+</html>
